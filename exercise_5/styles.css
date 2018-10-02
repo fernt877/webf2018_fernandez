@@ -18,7 +18,7 @@
             margin: 0;
         }
         #screensaver  {
-            position: absolute;
+            position: fixed;
             width: 100vw;
             height: 100vh;
             background-size: cover;
@@ -32,9 +32,9 @@
         #date {
             font-family: "IBM Plex Mono";
             font-weight: 400;
-            position: relative;
-            top: -50%;
-            margin: 10px;
+            position: fixed;
+            top: 0;
+            margin:0;
             color: #C7A4FF;
             font-size: 15px;
             z-index: 0;
@@ -60,18 +60,18 @@
         }
    
         #about{
-            position: absolute;
+            position: fixed;
         }
         
         #text {
             display: block;
-            position: absolute;
-            top: 30%;
-            left:-100%;
+            position: fixed;
+            top: 50%;
+            left: -50%;
             width: 200vw;
             font-family: "Racing Sans One";
             text-align: center;
-            font-size: 90px;
+            font-size: 100px;
             font-weight: 200;
             animation: color 1s infinite;
         }
@@ -90,29 +90,84 @@
         100% {color:#754FB2;}
         }
 
-        p1 {
-            position: absolute;
-            width: 100vw;
-            top: 300%;
-            left: 20%
+        #description {
+            position: relative;
+            width: 70vw;
+            height: 10vh;
+            bottom: 0;
+            overflow: scroll;
+            left: 0%;
             font-family: "IBM Plex Mono";
             color: white;
             font-size: 20px;
             font-weight: 200;
         }
 
+    #line1 {
+        background-color:#D7BEFF;
+        position: fixed;
+        width:100%;
+        height:50%;
+        bottom:50%;
+        font-size: 40px;
+        overflow: scroll;
+        font-weight: 300;
+        font-family: "IBM Plex Mono";
+        animation: change 10s ease;
+        }
+
+        @keyframes change {
+        0% {background-color:black;}
+
+        10% {background-color:black;}
+
+        20% {background-color:black;}
+
+        50% {background-color:black;}
+
+        60% {background-color:black;}
+
+        75% {background-color:#D7BEFF;}
+
+        80% {background-color:#D7BEFF;}
+
+        90% {background-color:#D7BEFF;}
+
+        100% {background-color:#D7BEFF;}
+        }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+    background: #C7A4FF; 
+    }
+
+    ::-webkit-scrollbar-thumb {
+    background: yellow; 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    }
+
          p {
             display: block;
+            position: fixed;
+            width: 50vw;
+            left: 20%;
             margin: 0px;
-            bottom: 0px;
-            font-family: "IBM Plex Mono";
-            text-align: center;
+            bottom: 40%;
+            font-family: "IBM Plex Sans";
             font-weight: 300;
             color: #754FB2;
             text-align: left;
             font-size: 20px;
             z-index: 0;
-        }       
+        }    
 
         #ticker {
             position: absolute;
