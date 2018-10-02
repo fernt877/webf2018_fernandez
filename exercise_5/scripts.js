@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     var bgImages = ["imgs/1.jpg", "imgs/2.jpg", "imgs/3.jpg", "imgs/4.jpg", ];
     var count = bgImages.length
-    var ticker = 1;
+    var ticker = 0;
     var time = 0;
 
     var message = "MAGICAL AS"
@@ -12,18 +12,15 @@ $(document).ready(function() {
     $("#text").text(message + " " + name + ",");
     $("#date").text(date);
 
-   function screensaver() {
-        var url = "url(" + bgImages[ticker] + ")";
+    function screensaver() {
+        var url = "url(" + bgImages[ticker] + ")"
         $("#screensaver").css("background-image", url);
-
-        var tickerText = ticker + "/" + count;
-        $("#ticker").text(tickerText);
-
-        ticker+=1;
-        if(ticker == count) {
-            ticker = 1;
+        $("#ticker").text((ticker + 1) + "/" + count)
+        ticker += 1;
+        if (ticker > count - 1) {
+            ticker = 0;
         }
-}
+    };
 
 //screensaver();
 
@@ -36,7 +33,7 @@ setInterval(function(){
 }, 5000)
 
 $(document).mousemove(function(){
-    ticker = 1;
+    ticker = 0;
     time = 0;
     $("#screensaver").css("opacity", 0)
     $("#ticker").css("opacity", 0)
