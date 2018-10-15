@@ -1,0 +1,357 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  grid-auto-rows: 1fr;
+}
+
+.grid::before {
+  content: '';
+  width: 0;
+  padding-bottom: 100%;
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+.grid > *:first-child {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+.grid > * {
+  background: rgba(0,0,0,0.1);
+  border: 1px white solid;
+}
+
+div1 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div1:hover {
+  background-color: yellow;
+}
+
+div2 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div2:hover {
+  background-color: blue;
+}
+
+div3 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div3:hover {
+  background-color: lightcoral;
+}
+
+div4 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div4:hover {
+  background-color: mediumvioletred;
+}
+
+div5 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div5:hover {
+  background-color: mediumaquamarine;
+}
+
+div6 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div6:hover {
+  background-color: lightskyblue;
+}
+
+div7 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div7:hover {
+  background-color: plum;
+}
+
+div8 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div8:hover {
+  background-color: blueviolet;
+}
+
+div9 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div9:hover {
+  background-color: slateblue;
+}
+
+div10 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div10:hover {
+  background-color: navy;
+}
+
+div11 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div11:hover {
+  background-color: yellowgreen;
+}
+
+div12 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div12:hover {
+  background-color: cyan;
+}
+
+div13 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div13:hover {
+  background-color: tomato;
+}
+
+div14 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div14:hover {
+  background-color: orangered;
+}
+
+div15 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div15:hover {
+  background-color: maroon;
+}
+
+div16 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div16:hover {
+  background-color: cornsilk;
+}
+
+div17 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div17:hover {
+  background-color: rosybrown;
+}
+
+div18 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div18:hover {
+  background-color: goldenrod;
+}
+
+div19 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div19:hover {
+  background-color: honeydew;
+}
+
+div20 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div20:hover {
+  background-color: lavenderblush;
+}
+
+div21 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div21:hover {
+  background-color: powderblue;
+}
+
+div22 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div22:hover {
+  background-color: darkturquoise;
+}
+
+div23 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div23:hover {
+  background-color: peachpuff;
+}
+
+div24 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div24:hover {
+  background-color: darkmagenta;
+}
+
+div25 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div25:hover {
+  background-color: dodgerblue;
+}
+
+div26 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div26:hover {
+  background-color: mistyrose;
+}
+
+div27 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div27:hover {
+  background-color: violet;
+}
+
+div28 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div28:hover {
+  background-color: darkcyan;
+}
+
+div29 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div29:hover {
+  background-color: darkseagreen;
+}
+
+div30 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div30:hover {
+  background-color: firebrick;
+}
+
+div31 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div31:hover {
+  background-color: hotpink;
+}
+
+div32 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div32:hover {
+  background-color: lightgreen;
+}
+
+div33 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div33:hover {
+  background-color: forestgreen;
+}
+
+div34 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div34:hover {
+  background-color: sienna;
+}
+
+div35 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div35:hover {
+  background-color: olivedrab;
+}
+
+div36 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div36:hover {
+  background-color: indigo;
+}
+
+div37 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div37:hover {
+  background-color: darkslategrey;
+}
+
+div38 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div38:hover {
+  background-color: lightsteelblue;
+}
+
+div39 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div39:hover {
+  background-color: crimson;
+}
+
+div40 {
+  background-color: rgba(0,0,0,0.1);
+}
+
+div40:hover {
+  background-color: peru;
+}
+
+p {
+  font-family: sans-serif;
+  color: rgba(0,0,0,0.1);
+  font-size: 200px;
+  z-index: 1000;
+}
+
+
