@@ -1,12 +1,18 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Questrial";
+}
+
+button i {
+  margin-left: 3px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
   grid-auto-rows: 1fr;
+  background-color: white;
 }
 
 .grid::before {
@@ -23,335 +29,530 @@ body {
 }
 
 .grid > * {
-  background: rgba(0,0,0,0.1);
-  border: 1px white solid;
+  background-color: black;
+  border: 0px;
 }
 
 div1 {
-  background-color: rgba(0,0,0,0.1);
+  background-color: black;
+  animation: example1 1s infinite;
 }
 
-div1:hover {
-  background-color: yellow;
+@keyframes example1 {
+    0% {background-color: black;}
+    50% {background-color: #7C10AD;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div2 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example2 5s infinite;
 }
 
-div2:hover {
-  background-color: blue;
+@keyframes example2 {
+    0% {background-color: black;}
+    50% {background-color: #FDCE72;}
+    100% {background-color: black;}
 }
 
 div3 {
-  background-color: rgba(0,0,0,0.1);
+  background-color: black;
+  animation: example3 10s infinite;
 }
 
-div3:hover {
-  background-color: lightcoral;
+@keyframes example3 {
+    0% {background-color: black;}
+    50% {background-color: #F15802;}
+    100% {background-color: black;}
 }
 
 div4 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example4 15s infinite;
 }
 
-div4:hover {
-  background-color: mediumvioletred;
+@keyframes example4 {
+    0% {background-color: black;}
+    50% {background-color: #48005F;}
+    100% {background-color: black;}
 }
 
 div5 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example5 5s infinite;
 }
 
-div5:hover {
-  background-color: mediumaquamarine;
+@keyframes example5 {
+    0% {background-color: black}
+    50% {background-color: #703498;}
+    100% {background-color: black;}
 }
 
 div6 {
-  background-color: rgba(0,0,0,0.1);
+  background-color: black;
+  animation: example6 25s infinite;
 }
 
-div6:hover {
-  background-color: lightskyblue;
+@keyframes example6 {
+    0% {background-color: black;}
+    50% {background-color: lightskyblue;}
+    100% {background-color: black;}
 }
 
 div7 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example7 30s infinite;
 }
 
-div7:hover {
-  background-color: plum;
+@keyframes example7 {
+    0% {background-color: black;}
+    50% {background-color: #D4F478;}
+    100% {background-color: black;}
+}
 }
 
 div8 {
-  background-color: rgba(0,0,0,0.1);
+background-color: white;
+animation: example8 35s infinite;
 }
 
-div8:hover {
-  background-color: blueviolet;
+@keyframes example8 {
+    0% {background-color: black;}
+    50% {background-color: #FFDEF7;}
+    100% {background-color: black;}
+}
 }
 
 div9 {
-  background-color: rgba(0,0,0,0.1);
+background-color: white;
+animation: example9 40s infinite;
 }
 
-div9:hover {
-  background-color: slateblue;
+@keyframes example9 {
+    0% {background-color: black;}
+    50% {background-color: #FF5B03;}
+    100% {background-color: black;}
+}
 }
 
 div10 {
-  background-color: rgba(0,0,0,0.1);
+  background-color: white;
+  animation: example10 45s infinite;
 }
 
-div10:hover {
-  background-color: navy;
+@keyframes example10 {
+    0% {background-color: black;}
+    50% {background-color: #5C0516;}
+    100% {background-color: black;}
+}
 }
 
 div11 {
-  background-color: rgba(0,0,0,0.1);
+  background-color: black;
+  animation: example11 100s infinite;
 }
 
-div11:hover {
-  background-color: yellowgreen;
+@keyframes example11 {
+    0% {background-color: black;}
+    50% {background-color: #5C0516;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div12 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example12 5s infinite;
 }
 
-div12:hover {
-  background-color: cyan;
+@keyframes example12 {
+    0% {background-color: black;}
+    50% {background-color: #D7C6E1;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div13 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example13 60s infinite;
 }
 
-div13:hover {
-  background-color: tomato;
+@keyframes example13 {
+    0% {background-color: black;}
+    50% {background-color: #B40528;}
+    100% {background-color: black;}
+}
 }
 
 div14 {
-  background-color: rgba(0,0,0,0.1);
+  background-color: black;
+  animation: example14 65s infinite;
 }
 
-div14:hover {
-  background-color: orangered;
+@keyframes example14 {
+    0% {background-color: black;}
+    50% {background-color: orangered;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div15 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example15 70s infinite;
 }
 
-div15:hover {
-  background-color: maroon;
+@keyframes example15 {
+    0% {background-color: black;}
+    50% {background-color: #C7E330;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div16 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example16 75s infinite;
 }
 
-div16:hover {
-  background-color: cornsilk;
+@keyframes example16 {
+    0% {background-color: black;}
+    50% {background-color: #6F076F;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div17 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example17 7s infinite;
 }
 
-div17:hover {
-  background-color: rosybrown;
+@keyframes example17 {
+    0% {background-color: black;}
+    50% {background-color: #A8B999;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div18 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example18 85s infinite;
 }
 
-div18:hover {
-  background-color: goldenrod;
+@keyframes example18 {
+    0% {background-color: black;}
+    50% {background-color: #B34D33;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div19 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example19 90s infinite;
 }
 
-div19:hover {
-  background-color: honeydew;
+@keyframes example19 {
+    0% {background-color: black;}
+    50% {background-color: #4A3498;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div20 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example20 100s ease-in infinite;
 }
 
-div20:hover {
-  background-color: lavenderblush;
+@keyframes example20 {
+    0% {background-color: black;}
+    50% {background-color: #E45F36;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div21 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example21 105s infinite;
 }
 
-div21:hover {
-  background-color: powderblue;
+@keyframes example21 {
+    0% {background-color: black;}
+    50% {background-color: #F0691B;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div22 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example22 25s infinite;
 }
 
-div22:hover {
-  background-color: darkturquoise;
+@keyframes example22 {
+    0% {background-color: black;}
+    50% {background-color: #972F6E;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div23 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example23 115s infinite;
 }
 
-div23:hover {
-  background-color: peachpuff;
+@keyframes example23 {
+    0% {background-color: black;}
+    50% {background-color: #FFF1AA;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div24 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example24 120s infinite;
 }
 
-div24:hover {
-  background-color: darkmagenta;
+@keyframes example24 {
+    0% {background-color: black;}
+    50% {background-color: #A93C00;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div25 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example25 125s infinite;
 }
 
-div25:hover {
-  background-color: dodgerblue;
+@keyframes example25 {
+    0% {background-color: black;}
+    50% {background-color: #9CB05C;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div26 {
-  background-color: rgba(0,0,0,0.1);
+  background-color: black;
+  animation: example26 130s infinite;
+
 }
 
-div26:hover {
-  background-color: mistyrose;
+@keyframes example26 {
+    0% {background-color: black;}
+    50% {background-color: #F1CD66;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div27 {
-  background-color: rgba(0,0,0,0.1);
+  background-color: black;
+  animation: example27 135s infinite;
 }
 
-div27:hover {
-  background-color: violet;
+@keyframes example27 {
+    0% {background-color: black;}
+    50% {background-color: #B41DFD;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div28 {
-  background-color: rgba(0,0,0,0.1);
+  background-color: black;
+  animation: example28 140s infinite;
 }
 
-div28:hover {
-  background-color: darkcyan;
+@keyframes example28 {
+    0% {background-color: black;}
+    50% {background-color: #00A68F;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div29 {
-  background-color: rgba(0,0,0,0.1);
+  background-color: black;
+  animation: example29 3s infinite;
 }
 
-div29:hover {
-  background-color: darkseagreen;
+@keyframes example29 {
+  0% {background-color: black;}
+  50% {background-color: #AEB37F;}
+  70% {background-color: black;}
+  100% {background-color: black;}
 }
 
 div30 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example30 150s infinite;
 }
 
-div30:hover {
-  background-color: firebrick;
+@keyframes example30 {
+    0% {background-color: black;}
+    50% {background-color: #2FC291;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div31 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example31 155s infinite;
 }
 
-div31:hover {
-  background-color: hotpink;
+@keyframes example31 {
+    0% {background-color: black;}
+    50% {background-color: #6A4C73;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div32 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example32 160s infinite;
 }
 
-div32:hover {
-  background-color: lightgreen;
+@keyframes example32 {
+    0% {background-color: black;}
+    50% {background-color: #F04863;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div33 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example33 1s infinite;
 }
 
-div33:hover {
-  background-color: forestgreen;
+@keyframes example33 {
+    0% {background-color: black;}
+    50% {background-color: crimson;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div34 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example34 170s infinite;
 }
 
-div34:hover {
-  background-color: sienna;
+@keyframes example34 {
+    0% {background-color: black;}
+    50% {background-color: #EEB063;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div35 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example35 5s infinite;
 }
 
-div35:hover {
-  background-color: olivedrab;
+@keyframes example35 {
+    0% {background-color: black;}
+    50% {background-color: #DD0093;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div36 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example32 10s infinite;
+
 }
 
-div36:hover {
-  background-color: indigo;
+@keyframes example32 {
+    0% {background-color: black;}
+    50% {background-color: #A6F139;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div37 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example32 15s infinite;
 }
 
-div37:hover {
-  background-color: darkslategrey;
+@keyframes example32 {
+    0% {background-color: black;}
+    50% {background-color: #C8B100;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div38 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example38 1s infinite;
 }
 
-div38:hover {
-  background-color: lightsteelblue;
+@keyframes example38 {
+    0% {background-color: black;}
+    50% {background-color: red;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div39 {
-  background-color: rgba(0,0,0,0.1);
+  background-color: black;
+  animation: example5 70s infinite;
 }
 
-div39:hover {
-  background-color: crimson;
+@keyframes example5 {
+    0% {background-color: black;}
+    50% {background-color: blue;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
 div40 {
-  background-color: rgba(0,0,0,0.1);
+background-color: black;
+animation: example40 15s infinite;
 }
 
-div40:hover {
-  background-color: peru;
+@keyframes example40 {
+    0% {background-color: black;}
+    50% {background-color: #9F0020;}
+    70% {background-color: black;}
+    100% {background-color: black;}
 }
 
-p {
-  font-family: sans-serif;
-  color: rgba(0,0,0,0.1);
-  font-size: 200px;
+div.container4 p {
+    margin: 0;
+    padding: 15px;
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+#sentence {
+  position: absolute;
+  display: inline-block;
+  text-align: right;
+  width: 85%;
+  font-family: "Chakra Petch";
+  color: black;
+  font-size: 50px;
   z-index: 1000;
+  pointer-events: none;
 }
 
+button {
+  height: 30px;
+  justify-content: right;
+  font-family:"Questrial";
+  outline: none;
+  position: absolute;
+  display: inline-block;
+  width: 120px;
+  left: 10vh;
+  bottom: 5px;
+  border: none;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  transition: 500ms ease-in;
+  font-size: 18px;
+  z-index: 1000;
+  justify-content: center;
+}
 
+button:hover {
+  background-color:red;
+  border: none;
+}
