@@ -2,7 +2,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Questrial";
+  display: grid;
+  overflow: hidden;
 }
+
 
 button i {
   margin-left: 3px;
@@ -10,8 +13,11 @@ button i {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 10fr));
+  width: 100%;
+  height: 100%;
   grid-auto-rows: 1fr;
+  object-fit: cover;
   background-color: white;
 }
 
@@ -122,7 +128,7 @@ animation: example8 35s infinite;
     50% {background-color: #FFDEF7;}
     100% {background-color: black;}
 }
-}
+
 
 div9 {
 background-color: white;
@@ -510,6 +516,228 @@ animation: example40 15s infinite;
     100% {background-color: black;}
 }
 
+div41 {
+  background-color: black;
+  animation: example41 1s infinite;
+}
+
+@keyframes example41 {
+    0% {background-color: black;}
+    50% {background-color: #7C10AD;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div42 {
+background-color: black;
+animation: example42 5s infinite;
+}
+
+@keyframes example42 {
+    0% {background-color: black;}
+    50% {background-color: #FDCE72;}
+    100% {background-color: black;}
+}
+
+div43 {
+  background-color: black;
+  animation: example43 10s infinite;
+}
+
+@keyframes example43 {
+    0% {background-color: black;}
+    50% {background-color: #F15802;}
+    100% {background-color: black;}
+}
+
+div44 {
+background-color: black;
+animation: example44 15s infinite;
+}
+
+@keyframes example44 {
+    0% {background-color: black;}
+    50% {background-color: #48005F;}
+    100% {background-color: black;}
+}
+
+div45 {
+background-color: black;
+animation: example45 5s infinite;
+}
+
+@keyframes example45 {
+    0% {background-color: black}
+    50% {background-color: #703498;}
+    100% {background-color: black;}
+}
+
+div46 {
+  background-color: black;
+  animation: example46 25s infinite;
+}
+
+@keyframes example46 {
+    0% {background-color: black;}
+    50% {background-color: lightskyblue;}
+    100% {background-color: black;}
+}
+
+div47 {
+background-color: black;
+animation: example47 30s infinite;
+}
+
+@keyframes example47 {
+    0% {background-color: black;}
+    50% {background-color: #D4F478;}
+    100% {background-color: black;}
+}
+}
+
+div48 {
+background-color: white;
+animation: example48 35s infinite;
+}
+
+@keyframes example48 {
+    0% {background-color: black;}
+    50% {background-color: #FFDEF7;}
+    100% {background-color: black;}
+}
+
+div49 {
+background-color: black;
+animation: example49 60s infinite;
+}
+
+@keyframes example49 {
+    0% {background-color: black;}
+    50% {background-color: #B40528;}
+    100% {background-color: black;}
+}
+}
+
+div50 {
+  background-color: black;
+  animation: example50 65s infinite;
+}
+
+@keyframes example50 {
+    0% {background-color: black;}
+    50% {background-color: orangered;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div51 {
+background-color: black;
+animation: example51 70s infinite;
+}
+
+@keyframes example51 {
+    0% {background-color: black;}
+    50% {background-color: #C7E330;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div52 {
+background-color: black;
+animation: example52 75s infinite;
+}
+
+@keyframes example52 {
+    0% {background-color: black;}
+    50% {background-color: #6F076F;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div53 {
+background-color: black;
+animation: example53 7s infinite;
+}
+
+@keyframes example53 {
+    0% {background-color: black;}
+    50% {background-color: #A8B999;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div54 {
+background-color: black;
+animation: example54 85s infinite;
+}
+
+@keyframes example54 {
+    0% {background-color: black;}
+    50% {background-color: #B34D33;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div55 {
+background-color: black;
+animation: example55 90s infinite;
+}
+
+@keyframes example55 {
+    0% {background-color: black;}
+    50% {background-color: #4A3498;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div56 {
+background-color: black;
+animation: example56 100s ease-in infinite;
+}
+
+@keyframes example56 {
+    0% {background-color: black;}
+    50% {background-color: #E45F36;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div57 {
+background-color: black;
+animation: example57 105s infinite;
+}
+
+@keyframes example57 {
+    0% {background-color: black;}
+    50% {background-color: #F0691B;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div58 {
+background-color: black;
+animation: example58 25s infinite;
+}
+
+@keyframes example58 {
+    0% {background-color: black;}
+    50% {background-color: #972F6E;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div59 {
+background-color: black;
+animation: example59 115s infinite;
+}
+
+@keyframes example59 {
+    0% {background-color: black;}
+    50% {background-color: #FFF1AA;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
 div.container4 p {
     margin: 0;
     padding: 15px;
@@ -529,7 +757,6 @@ div.container4 p {
   color: black;
   font-size: 50px;
   z-index: 1000;
-  pointer-events: none;
 }
 
 button {
@@ -555,4 +782,12 @@ button {
 button:hover {
   background-color:red;
   border: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .app-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh 50vh;
+  }
 }
