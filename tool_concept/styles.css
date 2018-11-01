@@ -6,11 +6,6 @@ body {
   overflow: hidden;
 }
 
-
-button i {
-  margin-left: 3px;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(8rem, 10fr));
@@ -116,10 +111,9 @@ animation: example7 30s infinite;
     50% {background-color: #D4F478;}
     100% {background-color: black;}
 }
-}
 
 div8 {
-background-color: white;
+background-color: black;
 animation: example8 35s infinite;
 }
 
@@ -131,8 +125,8 @@ animation: example8 35s infinite;
 
 
 div9 {
-background-color: white;
-animation: example9 40s infinite;
+background-color: black;
+animation: example9 5s infinite;
 }
 
 @keyframes example9 {
@@ -140,23 +134,21 @@ animation: example9 40s infinite;
     50% {background-color: #FF5B03;}
     100% {background-color: black;}
 }
-}
 
 div10 {
-  background-color: white;
-  animation: example10 45s infinite;
+  background-color: black;
+  animation: example10 1s infinite;
 }
 
 @keyframes example10 {
     0% {background-color: black;}
-    50% {background-color: #5C0516;}
+    50% {background-color: red;}
     100% {background-color: black;}
-}
 }
 
 div11 {
   background-color: black;
-  animation: example11 100s infinite;
+  animation: example11 5s infinite;
 }
 
 @keyframes example11 {
@@ -188,7 +180,7 @@ animation: example13 60s infinite;
     50% {background-color: #B40528;}
     100% {background-color: black;}
 }
-}
+
 
 div14 {
   background-color: black;
@@ -204,7 +196,7 @@ div14 {
 
 div15 {
 background-color: black;
-animation: example15 70s infinite;
+animation: example15 3s infinite;
 }
 
 @keyframes example15 {
@@ -252,7 +244,7 @@ animation: example18 85s infinite;
 
 div19 {
 background-color: black;
-animation: example19 90s infinite;
+animation: example19 10s infinite;
 }
 
 @keyframes example19 {
@@ -276,7 +268,7 @@ animation: example20 100s ease-in infinite;
 
 div21 {
 background-color: black;
-animation: example21 105s infinite;
+animation: example21 5s infinite;
 }
 
 @keyframes example21 {
@@ -300,7 +292,7 @@ animation: example22 25s infinite;
 
 div23 {
 background-color: black;
-animation: example23 115s infinite;
+animation: example23 1s infinite;
 }
 
 @keyframes example23 {
@@ -324,7 +316,7 @@ animation: example24 120s infinite;
 
 div25 {
 background-color: black;
-animation: example25 125s infinite;
+animation: example25 10s infinite;
 }
 
 @keyframes example25 {
@@ -361,7 +353,7 @@ div27 {
 
 div28 {
   background-color: black;
-  animation: example28 140s infinite;
+  animation: example28 10s infinite;
 }
 
 @keyframes example28 {
@@ -458,7 +450,6 @@ animation: example35 5s infinite;
 div36 {
 background-color: black;
 animation: example32 10s infinite;
-
 }
 
 @keyframes example32 {
@@ -494,7 +485,7 @@ animation: example38 1s infinite;
 
 div39 {
   background-color: black;
-  animation: example5 70s infinite;
+  animation: example5 7s infinite;
 }
 
 @keyframes example5 {
@@ -593,7 +584,7 @@ animation: example47 30s infinite;
     50% {background-color: #D4F478;}
     100% {background-color: black;}
 }
-}
+
 
 div48 {
 background-color: white;
@@ -616,7 +607,7 @@ animation: example49 60s infinite;
     50% {background-color: #B40528;}
     100% {background-color: black;}
 }
-}
+
 
 div50 {
   background-color: black;
@@ -738,6 +729,266 @@ animation: example59 115s infinite;
     100% {background-color: black;}
 }
 
+div60 {
+background-color: black;
+animation: example60 85s infinite;
+}
+
+@keyframes example60 {
+    0% {background-color: black;}
+    50% {background-color: #B34D33;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div61 {
+background-color: black;
+animation: example61 90s infinite;
+}
+
+@keyframes example61 {
+    0% {background-color: black;}
+    50% {background-color: #4A3498;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div62 {
+background-color: black;
+animation: example62 100s ease-in infinite;
+}
+
+@keyframes example62 {
+    0% {background-color: black;}
+    50% {background-color: #E45F36;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div63 {
+background-color: black;
+animation: example63 105s infinite;
+}
+
+@keyframes example63 {
+    0% {background-color: black;}
+    50% {background-color: #F0691B;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div64 {
+background-color: black;
+animation: example64 25s infinite;
+}
+
+@keyframes example64 {
+    0% {background-color: black;}
+    50% {background-color: #972F6E;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div65 {
+background-color: black;
+animation: example65 115s infinite;
+}
+
+@keyframes example65 {
+    0% {background-color: black;}
+    50% {background-color: #FFF1AA;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div66 {
+background-color: black;
+animation: example66 120s infinite;
+}
+
+@keyframes example66 {
+    0% {background-color: black;}
+    50% {background-color: #A93C00;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div67 {
+background-color: black;
+animation: example67 125s infinite;
+}
+
+@keyframes example67 {
+    0% {background-color: black;}
+    50% {background-color: #9CB05C;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div68 {
+  background-color: black;
+  animation: example68 130s infinite;
+
+}
+
+@keyframes example68 {
+    0% {background-color: black;}
+    50% {background-color: #F1CD66;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div69 {
+  background-color: black;
+  animation: example69 135s infinite;
+}
+
+@keyframes example69 {
+    0% {background-color: black;}
+    50% {background-color: #B41DFD;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div70 {
+  background-color: black;
+  animation: example70 140s infinite;
+}
+
+@keyframes example70 {
+    0% {background-color: black;}
+    50% {background-color: #00A68F;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div71 {
+  background-color: black;
+  animation: example71 1s infinite;
+}
+
+@keyframes example71 {
+    0% {background-color: black;}
+    50% {background-color: #7C10AD;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
+div72 {
+background-color: black;
+animation: example72 5s infinite;
+}
+
+@keyframes example72 {
+    0% {background-color: black;}
+    50% {background-color: #FDCE72;}
+    100% {background-color: black;}
+}
+
+div73 {
+  background-color: black;
+  animation: example73 10s infinite;
+}
+
+@keyframes example73 {
+    0% {background-color: black;}
+    50% {background-color: #F15802;}
+    100% {background-color: black;}
+}
+
+div74 {
+background-color: black;
+animation: example74 15s infinite;
+}
+
+@keyframes example74 {
+    0% {background-color: black;}
+    50% {background-color: #48005F;}
+    100% {background-color: black;}
+}
+
+div75 {
+background-color: black;
+animation: example75 5s infinite;
+}
+
+@keyframes example75 {
+    0% {background-color: black}
+    50% {background-color: #703498;}
+    100% {background-color: black;}
+}
+
+div76 {
+  background-color: black;
+  animation: example76 25s infinite;
+}
+
+@keyframes example76 {
+    0% {background-color: black;}
+    50% {background-color: lightskyblue;}
+    100% {background-color: black;}
+}
+
+div77 {
+background-color: black;
+animation: example77 30s infinite;
+}
+
+@keyframes example77 {
+    0% {background-color: black;}
+    50% {background-color: #D4F478;}
+    100% {background-color: black;}
+}
+}
+
+div78 {
+background-color: black;
+animation: example78 35s infinite;
+}
+
+@keyframes example78 {
+    0% {background-color: black;}
+    50% {background-color: #FFDEF7;}
+    100% {background-color: black;}
+}
+
+
+div79 {
+background-color: black;
+animation: example79 40s infinite;
+}
+
+@keyframes example79 {
+    0% {background-color: black;}
+    50% {background-color: #FF5B03;}
+    100% {background-color: black;}
+}
+}
+
+div80 {
+  background-color: black;
+  animation: example80 45s infinite;
+}
+
+@keyframes example80 {
+    0% {background-color: black;}
+    50% {background-color: #5C0516;}
+    100% {background-color: black;}
+}
+}
+
+div81 {
+  background-color: black;
+  animation: example81 100s infinite;
+}
+
+@keyframes example81 {
+    0% {background-color: black;}
+    50% {background-color: #5C0516;}
+    70% {background-color: black;}
+    100% {background-color: black;}
+}
+
 div.container4 p {
     margin: 0;
     padding: 15px;
@@ -784,10 +1035,54 @@ button:hover {
   border: none;
 }
 
-@media screen and (max-width: 1024px) {
-  .app-layout {
+@media screen and (max-width: 700px) {
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(5rem, 10fr));
+  width: 100%;
+  height: 100%;
+  grid-auto-rows: 1fr;
+  object-fit: cover;
+  background-color: white;
+}
+
+#sentence {
+  position: absolute;
+  display: inline-block;
+  text-align: right;
+  width: 65%;
+  font-family: "Chakra Petch";
+  color: black;
+  font-size: 60px;
+  z-index: 1000;
+}
+}
+
+@media screen and (max-width: 900px) {
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(6rem, 10fr));
+  width: 100%;
+  height: 100%;
+  grid-auto-rows: 1fr;
+  object-fit: cover;
+  background-color: white;
+}
+
+#sentence {
+  position: absolute;
+  display: inline-block;
+  text-align: right;
+  width: 65%;
+  font-family: "Chakra Petch";
+  color: black;
+  font-size: 60px;
+  z-index: 1000;
+}
+}
+  
+  /app-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50vh 50vh;
   }
-}
