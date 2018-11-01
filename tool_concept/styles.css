@@ -1046,6 +1046,10 @@ button:hover {
   background-color: white;
 }
 
+body {
+  overflow-y: hidden;
+}
+
 #sentence {
   position: absolute;
   display: inline-block;
@@ -1059,6 +1063,11 @@ button:hover {
 }
 
 @media screen and (max-width: 900px) {
+
+body {
+  overflow-y: hidden;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(6rem, 10fr));
