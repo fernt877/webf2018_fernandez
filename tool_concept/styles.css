@@ -8,10 +8,10 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  grid-auto-rows: 1fr;
   width: 100%;
   height: 100%;
-  grid-auto-rows: 1fr;
 }
 
 .grid::before {
@@ -1044,6 +1044,10 @@ button:hover {
   background-color: white;
 }
 
+body {
+    overflow-y: hidden;
+}
+
 #sentence {
   position: absolute;
   display: inline-block;
@@ -1066,6 +1070,10 @@ button:hover {
   grid-auto-rows: 1fr;
   object-fit: cover;
   background-color: white;
+}
+
+body {
+    overflow-y: hidden;
 }
 
 #sentence {
