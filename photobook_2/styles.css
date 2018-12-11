@@ -1,0 +1,202 @@
+body {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;    
+}
+
+div.sticky {
+    padding: 10px;
+    z-index: 10000px;
+	writing-mode: vertical-rl;
+	letter-spacing: -100px;
+	text-orientation: upright;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 100px;
+    transform: skew(-10deg);
+    color: black;
+    display: inline-block;
+    animation: spin 10s linear;
+}
+
+#line1 {
+    background-color:black;
+    position: fixed;
+    width:100%;
+    height:5px;
+    bottom:0%;
+    text-align: left;
+    font-size: 0px;
+    font-weight: 500;
+    z-index: 10000;
+    padding: 10px;
+    font-family: "Montserrat";
+    animation: change 10s ease;
+    }
+
+#line1:hover {
+  left: 5%;
+  overflow-y:scroll;
+  font-size: 40px;
+  width: 95%;
+  color: white;
+  background-color: black;
+  transform: skew(-10deg);
+  height: 100%;
+}
+
+#D7BEFF
+
+@keyframes spin {
+  0% {left:0px; top: 0px; letter-spacing: -100px;}
+  50% {letter-spacing: -90px}
+  100% {letter-spacing: -100px;}
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+#people {
+	font-family: "Montserrat";
+    color: transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Anh {
+    color: black;
+    letter-spacing: -25px;
+    transform: skew(-10deg);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.Anh:hover {
+	letter-spacing: 0px;
+}
+
+.Desiree {
+	color: black;
+    font-weight: 600;    
+    transform: skew(-10deg);
+    letter-spacing: -25px;
+    font-size: 50px;
+}
+
+.Desiree:hover {
+	    letter-spacing: 0px;
+}
+
+div.Chris {
+    font-size: 50px;
+    font-weight: 600;
+    transform: skew(-10deg);
+    letter-spacing: -25px;
+    color: black;
+}
+
+.Chris:hover {
+	letter-spacing: 0px;
+}
+
+img {
+	height: 200px;
+}
+
+p {
+  font-family: "Montserrat";
+  font-size: 20px;
+  width: 40%;
+text-align: center;
+  font-weight: 300;
+}
+
+#right {
+  background-color: white;
+  color: white;
+  position: fixed;
+  width:0px;
+  top:-30px;
+  border:10px dashed;
+  left:0;
+  height:900px;
+  animation: move1 10s ease-in-out infinite;
+  animation-delay: 0s;
+  animation-direction: alternate;
+  }
+
+@keyframes move1 {
+  0% {top: 100px;}
+  20% {top: 200px;}
+  40% {top: 300px;}
+  60% {top: 400px;}
+  80% {top: 500px;}
+  100% {top: 1000px;}
+}
+
+
+#right: hover {
+    color: black;
+  }
+
+@media (max-width: 900px) {
+
+body {
+    overflow-x: hidden;
+}
+
+div.sticky {
+    padding: 10px;
+    z-index: 10000px;
+    writing-mode: vertical-rl;
+    letter-spacing: -50px;
+    text-orientation: upright;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 50px;
+    transform: skew(-10deg);
+    color: black;
+    display: inline-block;
+    animation: spin 10s linear;
+}
+
+@keyframes spin {
+  0% {left:0px; top: 0px; letter-spacing: -50px;}
+  50% {letter-spacing: -40px}
+  100% {letter-spacing: -50px;}
+}
+
+#people {
+   width: 600px;
+   height: 600px;
+   position: absolute;
+   left: 50%;
+   top: 50%; 
+   margin-left: -300px;
+   margin-top: -300px;
+}
+
+}
+
+@media (max-width: 823px) {
+
+#people {
+ margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+}
+
+
+

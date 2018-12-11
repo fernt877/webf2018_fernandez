@@ -1,0 +1,238 @@
+body {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-image: url("imgs/desiree_6.jpg");
+}
+
+.Home {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 20px;
+}
+
+.Anh {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 20px;
+    transition: letter-spacing 3s ease-in-out;
+}
+
+.Anh:hover {
+    letter-spacing: 4px;
+}
+
+.Desiree {
+    color: #93B4F9;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Chris {
+    font-size:15px;
+    font-weight: 300;
+    padding: 20px;
+    transition: letter-spacing 3s ease-in-out;
+}
+
+.Chris:hover {
+    letter-spacing: 4px;
+}
+
+p {
+	font-family: "Montserrat";
+	font-size: 25px;
+    margin: 0px;
+	font-weight: 500;
+	padding: 25px;
+	transform: skew(-10deg);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 60%;
+    height: 60%;
+    box-shadow: 20px 20px 200px #E4CEFA;
+}
+
+#93B4F9
+
+#E4CEFA
+
+#6CBAF9
+
+#container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+#div-1 {
+	position: absolute;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: moving1 30s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moving1 {
+	0% {left: 350px; width: 60%;}
+	100% {left: 450px; width: 60%;}
+}
+
+#div-7 {
+	position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    animation: moving2 30s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moving2 {
+	0% {right: -200px; width: 100%; }
+	100% {right: 300px; width: 100%; }
+}
+
+#div-2 {
+	position: absolute;
+	z-index: 1000;
+	display: block;
+	bottom: -100%;
+    margin-left: auto;
+    margin-right: auto;
+    animation: moving3 30s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+#div-2.img {
+    box-shadow: 10px 10px 100px #E4CEFA;
+}
+
+@keyframes moving3 {
+	0% {left: 350px; width: 90%;}
+	100% {left: 450px; width: 90%;}
+}
+
+#div-4 {
+	position: absolute;
+	bottom: -100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: moving4 30s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moving4 {
+	0% {right: -200px; width: 100%; }
+	100% {right: 300px; width: 100%; }
+}
+
+@media (max-width: 900px) {
+
+    img {
+    width: 35%;
+    height: 35%;
+    box-shadow: 5px 5px 40px #969696;
+}
+
+#div-1 {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: moving1 40s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moving1 {
+    0% {right: 100px; width: 80%;}
+    50% {right:200px; width: 80%;}
+    100% {right: 100px; width: 80%;}
+}
+
+#div-7 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    animation: moving2 50s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moving2 {
+    0% {right: -200px; width: 100%; }
+    50% {right: 300px; width: 100%;}
+    100% {right: -200px; width: 100%; }
+}
+
+#div-2 {
+    position: absolute;
+    z-index: 1000;
+    display: block;
+    bottom: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    animation: moving3 30s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moving3 {
+    0% {right: 100px; width: 100%;}
+    50% {right:300px; width: 100%;}
+    100% {right: 100px; width: 100%;}
+}
+
+#div-4 {
+    position: absolute;
+    bottom: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: moving4 40s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moving4 {
+    0% {left: 50px; width: 100%; }
+    50% {left: 300px; width: 100%;}
+    100% {left: 50px; width: 100%; }
+}
+    }
+
+#div-3 {
+    position: absolute;
+    top: 210%;
+    margin-left: auto;
+    margin-right: auto;
+    animation: moving5 40s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moving5 {
+    0% {right: 10px; width: 80%;}
+    50% {right:400px; width: 80%;}
+    100% {right: 10px; width: 80%;}
+}
+
+#div-5 {
+    position: absolute;
+    top: 290%;
+    margin-left: auto;
+    margin-right: auto;
+    animation: moving6 40s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moving6 {
+    0% {left: 50px; width: 100%; }
+    50% {left: 300px; width: 100%;}
+    100% {left: 50px; width: 100%; }
+}
