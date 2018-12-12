@@ -22,19 +22,11 @@ body {
     transition: letter-spacing 3s ease-in-out;
 }
 
-.Anh:hover {
-    letter-spacing: 4px;
-}
-
 .Desiree {
     font-size: 15px;
     font-weight: 300;
     padding: 20px;
     transition: letter-spacing 3s ease-in-out;
-}
-
-.Desiree:hover {
-    letter-spacing: 4px;
 }
 
 .Chris {
