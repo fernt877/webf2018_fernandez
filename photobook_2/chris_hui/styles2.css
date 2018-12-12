@@ -6,9 +6,6 @@ body {
     padding: 0px;
     overflow-x: hidden;
     overflow-y: scroll;
-    background-image: url("imgs/chris_8.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 
 .Home {
@@ -63,7 +60,7 @@ p {
 img {
     width: 60%;
     height: 60%;
-    box-shadow:  20px 20px 100px #5C2226;
+    box-shadow:  30px 30px 150px #5C2226;
 }
 
 #BED4F3
@@ -92,7 +89,7 @@ img {
 	position: absolute;
     margin-left: auto;
     margin-right: auto;
-    animation: moving2 30s ease-in-out infinite;
+    animation: moving2 20s ease-in-out infinite;
     animation-direction: alternate;
 }
 
@@ -108,7 +105,7 @@ img {
 	bottom: -120%;
     margin-left: auto;
     margin-right: auto;
-    animation: moving3 30s ease-in-out infinite;
+    animation: moving3 20s ease-in-out infinite;
     animation-direction: alternate;
 }
 
@@ -123,7 +120,7 @@ img {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    animation: moving4 30s ease-in-out infinite;
+    animation: moving4 20s ease-in-out infinite;
     animation-direction: alternate;
 }
 
@@ -145,7 +142,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    animation: moving1 40s ease-in-out infinite;
+    animation: moving1 20s ease-in-out infinite;
     animation-direction: alternate;
 }
 
@@ -159,7 +156,7 @@ img {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    animation: moving2 50s ease-in-out infinite;
+    animation: moving2 20s ease-in-out infinite;
     animation-direction: alternate;
 }
 
@@ -176,7 +173,7 @@ img {
     bottom: 50%;
     margin-left: auto;
     margin-right: auto;
-    animation: moving3 30s ease-in-out infinite;
+    animation: moving3 20s ease-in-out infinite;
     animation-direction: alternate;
 }
 
@@ -192,7 +189,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    animation: moving4 40s ease-in-out infinite;
+    animation: moving4 20s ease-in-out infinite;
     animation-direction: alternate;
 }
 
@@ -208,7 +205,7 @@ img {
     top: 230%;
     margin-left: auto;
     margin-right: auto;
-    animation: moving5 40s ease-in-out infinite;
+    animation: moving5 20s ease-in-out infinite;
     animation-direction: alternate;
 }
 
@@ -223,7 +220,7 @@ img {
     top: 260%;
     margin-left: auto;
     margin-right: auto;
-    animation: moving6 40s ease-in-out infinite;
+    animation: moving6 20s ease-in-out infinite;
     animation-direction: alternate;
 }
 
