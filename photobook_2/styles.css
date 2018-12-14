@@ -25,6 +25,7 @@ div.sticky {
 
 #line1 {
     background-color:black;
+    overflow-y:scroll;
     position: fixed;
     width:100%;
     height:15px;
@@ -162,6 +163,50 @@ p:hover {
 
 body {
     overflow-x: hidden;
+}
+
+p {
+  font-family: "Montserrat";
+  font-size: 15px;
+  color: white;  
+  left: 50%;
+  bottom: -2%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: yellow;
+  position: fixed;
+  font-weight: 300;
+}
+
+p:hover {
+  bottom: 0%;
+  position: absolute;
+}
+
+#line1 {
+    background-color:black;
+    position: fixed;
+    width:100%;
+    height:15px;
+    bottom:0%;
+    text-align: left;
+    font-size: 0px;
+    font-weight: 500;
+    z-index: 10000;
+    padding: 10px;
+    font-family: "Montserrat";
+    animation: change 10s ease;
+    }
+
+#line1:hover {
+  left: 20%;
+  overflow-y: scroll;
+  font-size: 20px;
+  width: 50%;
+  color: white;
+  background-color: black;
+  transform: skew(10deg);
+  height: 100%;
 }
 
 div.sticky {
